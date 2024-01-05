@@ -1,0 +1,17 @@
+#game-board {
+  display: grid;
+  grid-template-columns: repeat(10, 30px);
+  grid-template-rows: repeat(20, 30px);
+  gap: 1px;
+  border: 1px solid #000;
+}
+
+.cell {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+}
+
+#score {
+  margin-top: 10px;
+}
